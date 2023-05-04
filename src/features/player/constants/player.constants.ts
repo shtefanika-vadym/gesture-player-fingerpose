@@ -1,4 +1,10 @@
-export const PLAYER_CONSTANTS = {
-  LOGO: 'logo',
-  VIDEO_SRC: 'https://www.youtube.com/watch?v=lkIFF4maKMU',
+export enum PLAYER_CONSTANTS {
+  LOGO = 'logo',
+  PLAY = 'PLAY',
+  PAUSE = 'PAUSE',
+  INCREASE = 'INCREASE',
+  DECREASE = 'DECREASE',
+  VOLUME_UP = 'VOLUME_UP',
+  VOLUME_DOWN = 'VOLUME_DOWN',
+  FULL_SCREEN = 'FULL_SCREEN',
 }

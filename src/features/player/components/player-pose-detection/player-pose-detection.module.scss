@@ -6,4 +6,19 @@
   z-index: 9;
   width: 200px;
   height: 200px;
+
+  &Webcam {
+    position: absolute;
+    left: 7vw;
+    top: 3vh;
+    right: 0;
+    z-index: 9;
+    width: 200px;
+    height: 200px;
+  }
+
+  &Video {
+    width: 80vw;
+    height: 80vh;
+  }
 }
