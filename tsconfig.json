@@ -17,6 +17,7 @@
     "strictNullChecks": false,
     "useUnknownInCatchVariables": false,
     "noEmit": true,
+    "noImplicitAny": false,
     "jsx": "react-jsx",
     "baseUrl": "src",
   },
